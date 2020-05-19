@@ -15,10 +15,10 @@
 def speak_to_grandma(input)
   if input != input.capitalize()
     puts "HUH?! SPEAK UP, SONNY!"
-    puts "HUH?! SPEAK UP, SONNY!"
-    puts "NO, NOT SINCE 1938!"
-    puts "NO, NOT SINCE 1938!"
   elsif input == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+  elsif input == input.capitalize()
+    puts "NO, NOT SINCE 1938!"
+
   end
 end
